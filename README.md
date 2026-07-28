@@ -86,24 +86,6 @@ jupyter nbconvert --to html IIOT.ipynb --execute
 
 ## Dependencies
 
-The notebook typically requires common data-science packages: jupyter, numpy, pandas, matplotlib, seaborn, scikit-learn, xgboost, tensorflow/keras or torch (if deep models are used). If a requirements.txt is not present, create one from your environment or install packages as needed.
+The notebook requires packages: jupyter, numpy, pandas, matplotlib, seaborn, scikit-learn, xgboost, tensorflow/keras or torch. 
 
-## Relationship to the PDF
 
-The file "AI-Enabled Predictive Maintenance Framework for Energy-Efficient IIoT Systems.pdf" in this repository provides the research background, formal problem statements, dataset descriptions, experimental protocol, and discussion about energy-efficiency in IIoT deployments. Use the PDF as the authoritative reference for:
-
-- Why specific features and models were chosen
-- Detailed dataset preprocessing steps and splits used in experiments
-- Experimental hyperparameters and reproducibility notes
-- Energy-efficiency metrics and deployment case studies
-
-The notebook implements and reproduces the experiments and examples described in that PDF; consult the PDF when you want deeper explanations or to cite the methodology.
-
-## Notes for contributors
-
-- If you add or change code in IIOT.ipynb, please update this README to reflect new dependencies or steps to run.
-- Consider splitting long notebooks into modular scripts (e.g., data_processing.py, features.py, train.py) to improve maintainability.
-
-## Contact
-
-For questions about the notebook or paper, open an issue in this repository or contact the author listed in the PDF.
